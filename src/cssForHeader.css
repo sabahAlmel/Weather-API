@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:'Raleway',sans-serif;
+}
+header{
+    background-color: #759eda;;
+    padding: 20px;
+}
+header input{
+    border: none;
+    padding: 10px;
+    background-color:#759eda;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    margin-right: 20px;
+    border-bottom: 2px solid #5473c0f5;
+}
+header input::placeholder{
+    color: white;
+}
+header button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color:#5473c0f5
+}
+/* start main */
+main {
+    background-color: #9ccef4;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+main .todayWeather div{
+    width: 400px;
+    margin: 0 auto;
+}
+main .todayWeather img{
+    width: 300px;
+    height: 300px;
+}
+main .todayWeather .captionOnWeather{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+main .todayWeather .temp{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+main span{
+    font-weight: bold;
+    margin-right: 15px;
+}
+main .other{
+    display: flex;
+}
