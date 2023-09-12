@@ -3,7 +3,9 @@
     -moz-box-sizing: border-box;
     margin: 0;
 }
-
+body{
+    font-family:'Raleway',sans-serif;
+}
 header{
     background-color: #759eda;;
     padding: 20px;
