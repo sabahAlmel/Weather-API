@@ -1,0 +1,8 @@
+.other{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
